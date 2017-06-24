@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="DataAccess:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataAccess_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DataAccess/ejb/EJB" />
+      <element id="javaee-facet-classes" facet="DataAccess/ejb/EJB" />
+    </root>
+  </artifact>
+</component>

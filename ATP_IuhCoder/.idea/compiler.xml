@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DataAccess" />
+        <module name="Entities" />
+        <module name="Models" />
+        <module name="WebAPI" />
+        <module name="WebAPP" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataAccess" target="1.6" />
+      <module name="Entities" target="1.5" />
+      <module name="IuhCoder" target="1.5" />
+      <module name="Models" target="1.5" />
+      <module name="WebAPI" target="1.5" />
+      <module name="WebAPP" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
