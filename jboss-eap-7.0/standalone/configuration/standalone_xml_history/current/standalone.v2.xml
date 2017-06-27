@@ -405,4 +405,10 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
+    <deployments>
+        <deployment name="unnamed" runtime-name="unnamed.war" enabled="false">
+            <fs-archive path="E:\Users\Le\Automatically Testting Program\automatically-testing-program\Project\testWebApp\out\artifacts\unnamed"/>
+        </deployment>
+    </deployments>
 </server>
