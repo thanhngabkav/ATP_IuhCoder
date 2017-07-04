@@ -10,6 +10,7 @@
         <module name="DataAccess" />
         <module name="Entities" />
         <module name="WebAPI" />
+        <module name="WebAPP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

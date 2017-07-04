@@ -11,6 +11,7 @@
     <modules>
         <module>WebAPI</module>
         <module>BusinessLogic</module>
+        <module>WebAPP</module>
     </modules>
 
     <dependencies>

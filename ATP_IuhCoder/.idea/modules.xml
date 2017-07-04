@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BusinessLogic/BusinessLogic.iml" filepath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.iml" />
       <module fileurl="file://$PROJECT_DIR$/IuhCoder.iml" filepath="$PROJECT_DIR$/IuhCoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebAPI/WebAPI.iml" filepath="$PROJECT_DIR$/WebAPI/WebAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebAPP/WebAPP.iml" filepath="$PROJECT_DIR$/WebAPP/WebAPP.iml" />
     </modules>
   </component>
 </project>
