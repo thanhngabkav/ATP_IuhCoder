@@ -50,8 +50,8 @@ public class ProblemComparator {
         inputs = markingData.getListInput();
         outputs = markingData.getListOutput();
 
-        notAcceptOutputs = new ArrayList<>();
-        acceptOutputs = new ArrayList<>();
+        notAcceptOutputs = new ArrayList<NotAcceptOutput>();
+        acceptOutputs = new ArrayList<AcceptOutput>();
 
         if (isInputEmpty())
             throw new ProblemExceptionHandler(ErrorCode.NO_DATA, "inputs");

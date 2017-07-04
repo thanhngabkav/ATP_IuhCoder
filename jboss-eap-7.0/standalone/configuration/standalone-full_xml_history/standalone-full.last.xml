@@ -465,10 +465,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
-    <deployments>
-        <deployment name="WebAPI.war" runtime-name="WebAPI.war" enabled="false">
-            <fs-archive path="F:\IuhCoder\WebAPI\target\WebAPI.war"/>
-        </deployment>
-    </deployments>
 </server>

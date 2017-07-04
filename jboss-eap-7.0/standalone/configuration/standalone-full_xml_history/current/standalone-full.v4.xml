@@ -467,11 +467,8 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="WebAPI.war" runtime-name="WebAPI.war" enabled="false">
-            <fs-archive path="F:\IuhCoder\WebAPI\target\WebAPI.war"/>
-        </deployment>
-        <deployment name="IuhCoder.war" runtime-name="IuhCoder.war" enabled="false">
-            <fs-archive path="F:\IuhCoder\out\artifacts\IuhCoder\IuhCoder.war"/>
+        <deployment name="IuhCoderAPI_war.war" runtime-name="IuhCoderAPI_war.war" enabled="false">
+            <fs-archive path="F:\ATP_IuhCoder\ATP_IuhCoder\ATP_IuhCoder\out\artifacts\IuhCoderAPI_war\IuhCoderAPI_war.war"/>
         </deployment>
     </deployments>
 </server>

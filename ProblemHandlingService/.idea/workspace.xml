@@ -2,7 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="038a26db-1c88-40ce-80d1-300c9000c612" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/artifacts/WebAPI_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/DataAccess.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/AcceptOutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/ContestDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_AcceptOutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_ContestDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_InputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_MarkingServerConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_NotAcceptOutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_OutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_ProblemDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_StudentDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_Student_ContestDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_SubmissionDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_SubmissionResulltDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/I_Local_TeacherDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/InputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/MarkingServerConection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/NotAcceptOutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/OutputDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/ProblemDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/StudentDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/Student_ContestDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/SubmissionDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/SubmissionResultDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/DataAccess/TeacherDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/src/main/java/IUHCoder_ExceptionHandler/ATP_ExceptionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/AcceptOutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/ContestDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_AcceptOutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_ContestDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_InputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_MarkingServerConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_NotAcceptOutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_OutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_ProblemDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_StudentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_Student_ContestDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_SubmissionDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_SubmissionResulltDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/I_Local_TeacherDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/InputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/MarkingServerConection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/NotAcceptOutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/OutputDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/ProblemDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/StudentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/Student_ContestDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/SubmissionDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/SubmissionResultDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/DataAccess/TeacherDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/DataAccess/target/classes/IUHCoder_ExceptionHandler/ATP_ExceptionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/Models.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/AcceptOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/AcceptOutputPK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Contest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Input.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/InputPK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/MarkingData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/NotAcceptOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/NotAcceptOutputPK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Output.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/OutputPK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Problem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/StudentContestDetail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Submission.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/SubmissionResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/java/Entities/Teacher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/src/main/resources/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/AcceptOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/AcceptOutputPK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Contest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Input.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/InputPK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/MarkingData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/NotAcceptOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/NotAcceptOutputPK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Output.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/OutputPK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Problem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/StudentContestDetail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Submission.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/SubmissionResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/Entities/Teacher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/Models/target/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/target/IuhCoder/WEB-INF/lib/DataAccess-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/target/IuhCoder/WEB-INF/lib/DataAccess-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/out/artifacts/IuhCoder/IuhCoder.war" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/out/artifacts/IuhCoder/IuhCoder.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/out/artifacts/WebAPI_war/WebAPI_war.war" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/out/artifacts/WebAPI_war/WebAPI_war.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService.war" afterPath="$PROJECT_DIR$/target/ProblemHandlingService.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/API/SubmissionRefundatorAPI.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/API/SubmissionRefundatorAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ActualOutputTask.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ActualOutputTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemComparator.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemCompiler.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemCompiler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemStatus.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/ProblemStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/SubmissionRefundator.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/SubmissionRefundator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/WriteInputTask.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/CodeHandling/WriteInputTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/AcceptOutput.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/AcceptOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/Input.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/Input.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/MarkingData.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/MarkingData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/NotAcceptOutput.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/NotAcceptOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/Output.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/Output.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/SubmissionResult.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Entities/SubmissionResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler$1.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler$ErrorCode.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler$ErrorCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/ErrorHandling/ProblemExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Utilities/JsonConverter.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Utilities/JsonConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Utilities/URLHandler.class" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/WEB-INF/classes/Utilities/URLHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/API/SubmissionRefundatorAPI.class" afterPath="$PROJECT_DIR$/target/classes/API/SubmissionRefundatorAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/ActualOutputTask.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/ActualOutputTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemComparator.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemCompiler.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemCompiler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemStatus.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/ProblemStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/SubmissionRefundator.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/SubmissionRefundator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeHandling/WriteInputTask.class" afterPath="$PROJECT_DIR$/target/classes/CodeHandling/WriteInputTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/AcceptOutput.class" afterPath="$PROJECT_DIR$/target/classes/Entities/AcceptOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Input.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Input.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/MarkingData.class" afterPath="$PROJECT_DIR$/target/classes/Entities/MarkingData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/NotAcceptOutput.class" afterPath="$PROJECT_DIR$/target/classes/Entities/NotAcceptOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Output.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Output.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/SubmissionResult.class" afterPath="$PROJECT_DIR$/target/classes/Entities/SubmissionResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler$1.class" afterPath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler$ErrorCode.class" afterPath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler$ErrorCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/ErrorHandling/ProblemExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/JsonConverter.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/JsonConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/URLHandler.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/URLHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/UnitTest/ProblemComparatorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest/ProblemComparatorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/UnitTest/ProblemCompilerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest/ProblemCompilerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/UnitTest/URLHandlerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest/URLHandlerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-bindings-1.bindings" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-bindings-1.bindings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-bindings-2.bindings" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-bindings-2.bindings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-jms-1.jms" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-jms-1.jms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-jms-2.jms" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/bindings/activemq-jms-2.jms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/journal/activemq-data-1.amq" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/journal/activemq-data-1.amq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/journal/activemq-data-2.amq" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/data/activemq/journal/activemq-data-2.amq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/artifacts/DataAccess_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/artifacts/DataAccess_ejb_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/artifacts/WebAPI_war_exploded.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/artifacts/WebAPI_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/libraries/Jersey_2_2.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/libraries/Jersey_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/modules.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/IuhCoder.iml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/IuhCoder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/WebAPI.iml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/WebAPI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/target/IuhCoder/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/WebAPI/target/IuhCoder/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATP_IuhCoder/pom.xml" afterPath="$PROJECT_DIR$/../ATP_IuhCoder/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java" afterPath="$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UnitTest/ProblemComparatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/UnitTest/ProblemComparatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProblemHandlingService/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/ProblemHandlingService/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/bin/.0.current" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/bin/.0.current" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/logging.properties" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/logging.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v1.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v2.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v3.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v4.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/current/standalone-full.v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/standalone-full.boot.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/standalone-full.boot.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/standalone-full.last.xml" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/configuration/standalone-full_xml_history/standalone-full.last.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/backupgc.log.current" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/backupgc.log.current" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/gc.log.0.current" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/gc.log.0.current" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/server.log" afterPath="$PROJECT_DIR$/../jboss-eap-7.0/standalone/log/server.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +185,8 @@
       <file leaf-file-name="ProblemComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+            <state relative-caret-position="756">
+              <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -29,17 +195,17 @@
       <file leaf-file-name="Input.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="231">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubmissionRefundatorAPI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubmissionRefundatorAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/API/SubmissionRefundatorAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="315">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,14 +214,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProblemComparatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProblemComparatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest/ProblemComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="78" column="33" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,11 +227,9 @@
       <file leaf-file-name="ProblemCompilerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest/ProblemCompilerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="798">
               <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +237,7 @@
       <file leaf-file-name="ProblemExceptionHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ErrorHandling/ProblemExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="42">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -85,7 +247,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="567">
               <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding />
             </state>
@@ -95,7 +257,7 @@
       <file leaf-file-name="URLHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/URLHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="315">
               <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding />
             </state>
@@ -105,7 +267,7 @@
       <file leaf-file-name="ProblemCompiler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ProblemCompiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="84">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
@@ -115,7 +277,7 @@
       <file leaf-file-name="ActualOutputTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ActualOutputTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="84">
               <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
@@ -146,6 +308,7 @@
         <option value="$PROJECT_DIR$/src/main/java/API/SubmissionRefundatorAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/URLHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitTest/ProblemComparatorTest.java" />
       </list>
     </option>
   </component>
@@ -174,27 +337,13 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="ProblemHandlingService Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,35 +383,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemHandlingService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemHandlingService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.arquillian" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39885056" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ATP_IuhCoder" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -284,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.Unnamed">
+  <component name="RunManager" selected="JBoss Server.ProblemHandlingServer">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -525,7 +660,7 @@
       <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.1.2.Final-redhat-1" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss7.0_JavaNC" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -797,13 +932,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.1.2.Final-redhat-1" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="false" name="ProblemHandlingServer" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss7.0_JavaNC" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8989/ProblemHandlingService/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ProblemHandlingService:war">
-          <settings />
-        </artifact>
-        <artifact name="ProblemHandlingService:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -868,12 +1002,11 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ProblemHandlingService:war" />
-          <artifact name="ProblemHandlingService:war exploded" />
         </option>
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.ProblemHandlingServer" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -896,20 +1029,22 @@
       <workItem from="1498450454221" duration="1214000" />
       <workItem from="1498461452875" duration="291000" />
       <workItem from="1498461861575" duration="1625000" />
+      <workItem from="1499075328806" duration="876000" />
+      <workItem from="1499143875627" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15786000" />
+    <option name="totallyTimeSpent" value="16752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -924,9 +1059,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2672035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27497315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -934,7 +1069,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1241,7 +1376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ProblemCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="84">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
@@ -1249,7 +1384,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ActualOutputTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="84">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
@@ -1264,7 +1399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="231">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
@@ -1277,14 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/SubmissionRefundator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
@@ -1294,7 +1421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/URLHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="315">
           <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding />
         </state>
@@ -1302,17 +1429,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest/ProblemCompilerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="798">
           <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ErrorHandling/ProblemExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
@@ -1320,29 +1445,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="567">
           <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/SubmissionRefundatorAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CodeHandling/ProblemComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest/ProblemComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="78" column="33" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/API/SubmissionRefundatorAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,6 +1519,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>ejb-3.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1416,6 +1548,7 @@
             <option name="proportions">
               <list>
                 <option value="0.39885056" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
