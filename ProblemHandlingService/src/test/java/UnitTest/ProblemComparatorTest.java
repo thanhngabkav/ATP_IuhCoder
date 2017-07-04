@@ -73,7 +73,7 @@ public class ProblemComparatorTest {
     }
 
     private List<Input> addInput() {
-        List<Input> lip = new ArrayList<>();
+        List<Input> lip = new ArrayList<Input>();
 
         Input ip = new Input();
         ip.setInputData("7 1 4");
@@ -98,7 +98,7 @@ public class ProblemComparatorTest {
     }
 
     private List<Input> addInputWrong() {
-        List<Input> lip = new ArrayList<>();
+        List<Input> lip = new ArrayList<Input>();
 
         Input ip = new Input();
         ip.setInputData("7 7 5");
@@ -123,7 +123,7 @@ public class ProblemComparatorTest {
     }
 
     private List<Input> addInputRuntime() {
-        List<Input> lip = new ArrayList<>();
+        List<Input> lip = new ArrayList<Input>();
 
         Input ip = new Input();
         ip.setInputData("7");
@@ -149,7 +149,7 @@ public class ProblemComparatorTest {
 
 
     private List<Output> addOutput() {
-        List<Output> lip = new ArrayList<>();
+        List<Output> lip = new ArrayList<Output>();
 
         Output ip = new Output();
         ip.setOutputData("6");

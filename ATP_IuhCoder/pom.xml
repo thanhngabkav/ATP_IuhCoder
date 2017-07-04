@@ -10,10 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>WebAPI</module>
-        <module>DataAccess</module>
-        <module>Models</module>
-        <module>WebAPP</module>
-        <module>WebAPP</module>
+        <module>BusinessLogic</module>
     </modules>
 
     <dependencies>

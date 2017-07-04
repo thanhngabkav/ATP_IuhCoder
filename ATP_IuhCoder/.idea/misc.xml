@@ -11,6 +11,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Models/pom.xml" />
         <option value="$PROJECT_DIR$/WebAPP/pom.xml" />
       </set>
     </option>

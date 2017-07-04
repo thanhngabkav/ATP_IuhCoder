@@ -11,11 +11,9 @@
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="archive" name="DataAccess-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="DataAccess" />
+            <element id="module-output" name="BusinessLogic" />
           </element>
-          <element id="archive" name="Models-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="Models" />
-          </element>
+          <element id="library" level="project" name="Maven: APT:Models:1.0-SNAPSHOT" />
         </element>
       </element>
       <element id="directory" name="META-INF">
