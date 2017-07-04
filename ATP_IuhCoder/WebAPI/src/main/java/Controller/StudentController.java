@@ -1,4 +1,4 @@
-package UserServices;
+package Controller;
 
 import DataAccess.I_Local_StudentDAO;
 import Entities.Student;
@@ -14,10 +14,10 @@ import java.util.List;
  */
 
 @Path("/Student")
-public class StudentServices {
+public class StudentController {
     @EJB
     private I_Local_StudentDAO studentDAO;
-    public StudentServices() {
+    public StudentController() {
 
     }
     @GET
