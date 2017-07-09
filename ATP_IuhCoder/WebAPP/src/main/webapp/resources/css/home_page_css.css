@@ -1,0 +1,8 @@
+.content-left{
+    float: left;
+    width: 60%;
+}
+.content-right{
+    float: right;
+    width: 30%;
+}

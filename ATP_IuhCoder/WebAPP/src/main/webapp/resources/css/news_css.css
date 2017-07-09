@@ -1,0 +1,32 @@
+/* CSS Document */
+.icon_news{
+	background: url(../img/ic_title.png) no-repeat;
+	width: 60px;
+	height: 50px;
+	vertical-align: bottom;
+	margin-bottom: 8px;
+}
+.news_content{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+	border-radius: 10px;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+}
+.news_content:hover{
+	box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.title{
+	color: #267EB8;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	font-size:25px;
+	font-weight: bold;
+
+}
+
+body{
+	max-width: 512px;
+}

@@ -1,0 +1,43 @@
+/* CSS Document */
+
+.prefix-rating {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D550BE, #D68CC9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D550BE, #D68CC9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D550BE, #D68CC9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D550BE, #D68CC9); /* Standard syntax */
+	height: 70px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 	10px;
+}
+.suffix-rating{
+	
+}
+.prefix-text{
+	text-align: center;
+}
+.rating{
+	border-radius: 10px;
+	border: 0.5px solid #E3E3E3;
+	height:320px;
+	width: 220px;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+}
+.prefix-img{
+	background: url(../img/ic_rating.png) no-repeat;
+	height: 50px;
+	width: 50px;
+    
+}
+
+.prefix-img-problem{
+	background: url(../img/ic_problem.png) no-repeat;
+	height: 50px;
+	width: 40px;
+}
+
+.table td, .table th {
+    border: none;
+}
+

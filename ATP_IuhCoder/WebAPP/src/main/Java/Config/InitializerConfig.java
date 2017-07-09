@@ -26,6 +26,7 @@ public class InitializerConfig implements WebApplicationInitializer {
     private AnnotationConfigWebApplicationContext registerConfig() {
         AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
         applicationContext.register(ApplicationConfig.class);
+        //applicationContext.register(WebMvcConfig.class);
         return applicationContext;
     }
 
@@ -41,7 +42,7 @@ public class InitializerConfig implements WebApplicationInitializer {
     }
 
     private void charatorFilter(ServletContext servletContext) {
-        FilterRegistration.Dynamic filterRegistration = servletContext.addFilter("endcodingFilter", CharacterEncodingFilter.class);
+        FilterRegistration.Dynamic filterRegistration = servletContext.addFilter("encodingFilter", CharacterEncodingFilter.class);
         filterRegistration.setInitParameter("encoding","UTF-8");
         filterRegistration.setInitParameter("forceEncoding","true");
         filterRegistration.addMappingForUrlPatterns(null,true,"/*");

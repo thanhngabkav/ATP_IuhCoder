@@ -1,0 +1,72 @@
+/* CSS Document */
+.navbar{
+	float: right;
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-nav{
+	margin-top: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.nav-item > a{
+	
+	display: block;
+	float: left;
+	margin-left: 2.5em;
+}
+
+.straight-line{
+	border-left: 1px solid #fff;
+	display: block;
+	float: left;
+	margin-left: 2.5em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.bg-faded{
+	background-color: transparent;
+}
+
+.circle_around_text{
+	border-radius: 5em;
+	
+    width: 96px;
+    border: 2px outset #fff;
+
+    text-align: center;
+	margin-top: 7px;
+	margin-right: 2.5em;
+	padding: inherit;
+	
+}
+.text_navbar{
+	text-transform: capitalize;
+	word-spacing: 0;
+	letter-spacing: 0;
+	line-height: 1.9875rem;
+	white-space: nowrap;
+	
+	font-weight: 600;
+	font-size: 0.85em;
+	font-family: "Open Sans", sans-serif;
+	text-color: white;
+	
+}
+.header{
+	float: left;
+	height: 550px;
+	width: 100%;
+	background: url(../img/header_background.png) no-repeat center fixed;
+	background-size: cover;
+}
+.body{
+	display: block;
+	margin: 0 auto;
+	width: 1024px !important;
+}
