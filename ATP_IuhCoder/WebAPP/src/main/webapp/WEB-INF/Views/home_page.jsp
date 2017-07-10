@@ -28,7 +28,7 @@
                         <jsp:include page="../subViews/problem.jsp"></jsp:include>
                     </div>
                     <div class="right-rating">
-                        <jsp:include page="../subViews/rate.jsp"></jsp:include>
+                        <jsp:include page="../subViews/coder.jsp"></jsp:include>
                     </div>
             </div>
         </div>

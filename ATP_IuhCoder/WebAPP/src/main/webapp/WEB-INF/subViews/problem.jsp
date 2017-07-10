@@ -1,3 +1,6 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
 <div class="rating">
 	<div class="prefix-rating">
 		<table class="table prefix-rating-table">
@@ -10,6 +13,12 @@
 	<div class="suffix-rating">
 		<table class="table table-striped">
 			<tbody>
+			<c:forEach items="newest-problem" var="problem">
+				<tr>
+					<td>${problem.ProblemID}</td>
+					<td>${problem.ProblemName}</td>
+				</tr>
+			</c:forEach>
 				<tr>
 					<td>MD01</td>
 					<td>Find The Dog</td>
