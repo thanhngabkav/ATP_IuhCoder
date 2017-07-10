@@ -26,7 +26,7 @@ public class InitializerConfig implements WebApplicationInitializer {
     private AnnotationConfigWebApplicationContext registerConfig() {
         AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
         applicationContext.register(ApplicationConfig.class);
-        //applicationContext.register(WebMvcConfig.class);
+        applicationContext.register(WebMvcConfig.class);
         return applicationContext;
     }
 

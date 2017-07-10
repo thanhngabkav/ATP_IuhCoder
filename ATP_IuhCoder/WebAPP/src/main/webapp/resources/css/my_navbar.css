@@ -2,6 +2,7 @@
 .navbar{
 	float: right;
 	color: white;
+	padding-right: 0px;
 }
 .navbar-light .navbar-nav .nav-link{
 	color: white;
@@ -9,12 +10,11 @@
 .navbar-nav{
 	margin-top: 20px;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: white;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: wheat;
 }
 
 .nav-item > a{
-	
 	display: block;
 	float: left;
 	margin-left: 2.5em;
@@ -41,9 +41,7 @@
 
     text-align: center;
 	margin-top: 7px;
-	margin-right: 2.5em;
 	padding: inherit;
-	
 }
 .text_navbar{
 	text-transform: capitalize;
@@ -59,14 +57,11 @@
 	
 }
 .header{
-	float: left;
 	height: 550px;
-	width: 100%;
-	background: url(../img/header_background.png) no-repeat center fixed;
-	background-size: cover;
+	background: url(../img/header_background.png) no-repeat ;
 }
 .body{
 	display: block;
-	margin: 0 auto;
-	width: 1024px !important;
+	margin: 0 auto !important;
+	width: 1020px !important;
 }

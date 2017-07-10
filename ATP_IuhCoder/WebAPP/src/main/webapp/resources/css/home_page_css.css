@@ -1,8 +1,15 @@
 .content-left{
     float: left;
-    width: 60%;
+    width: 70%;
 }
 .content-right{
     float: right;
-    width: 30%;
+}
+.home-content{
+    width: 1020px !important;
+    margin: 0 auto !important;
+    padding-top: 40px;
+}
+.right-rating{
+    margin-top: 20px;
 }

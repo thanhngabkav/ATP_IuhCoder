@@ -8,16 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>HomePage</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/resources/css/my_navbar.css"/>
-    <link rel="stylesheet" href="/resources/css/news_css.css"/>
-    <link rel="stylesheet" href="/resources/css/rating_css.css"/>
-    <link rel="stylesheet" href="/resources/css/home_page_css.css"/>
+    <link rel="stylesheet" href="resources/css/my_navbar.css"/>
+    <link rel="stylesheet" href="resources/css/news_css.css"/>
+    <link rel="stylesheet" href="resources/css/rating_css.css"/>
+    <link rel="stylesheet" href="resources/css/home_page_css.css"/>
 </head>
 <body>
     <div class="main">
-        <jsp:include page="../subViews/navbar_header.jsp"></jsp:include>
+        <jsp:include page="../subViews/header.jsp"></jsp:include>
         <div class="home-content">
             <div class="content-left">
                     <jsp:include page="../subViews/news.jsp"></jsp:include>

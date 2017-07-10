@@ -7,7 +7,7 @@
 	margin-bottom: 8px;
 }
 .news_content{
-	margin: 10px;
+	height: 320px;
 	padding: 10px;
 	border: 1px solid #E3E3E3;
 	border-radius: 10px;
@@ -24,9 +24,4 @@
 	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
 	font-size:25px;
 	font-weight: bold;
-
-}
-
-body{
-	max-width: 512px;
 }
