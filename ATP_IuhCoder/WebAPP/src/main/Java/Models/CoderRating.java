@@ -6,11 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Created by lldtien on 7/10/2017.
  */
 public class CoderRating {
-    private String Name;
-    private String NumberSolvedProblem;
+    public String Name;
+    public String NumberSolvedProblem;
 
     public CoderRating() {
     }
+
 
     public CoderRating(String name, String numberSolvedProblem) {
         Name = name;

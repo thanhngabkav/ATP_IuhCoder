@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
-
+<%@page isELIgnored="false" %>
 <div class="news_content">
 	<table class="table borderless">
 		<tbody>
@@ -22,17 +22,17 @@ Vào 19g30 Chủ Nhật ngày 19/02/2017, NTUCoder tổ chức vòng thi "NTUCod
 	  </table>
 </div>
 
-<c:forEach items="top-news" var="news">
+<c:forEach items="${topnews}" var="news">
 	<div class="news_content">
 		<table class="table borderless">
 			<tbody>
 			<tr>
 				<td class="align-bottom"><div class="icon_news"></div></td>
-				<td class="title align-bottom">${news.Title}/td>
+				<td class="title align-bottom">${news.getTitle()}</td>
 			</tr>
 			<tr>
 				<td></td>
-				<td class="content_text">${news.Content}</td>
+				<td class="content_text">${news.getContent()}</td>
 			</tr>
 			</tbody>
 		</table>

@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Created by lldtien on 7/10/2017.
  */
 public class News {
-    private String Title;
-    private String Content;
+    public String Title;
+    public String Content;
 
     public News() {
     }

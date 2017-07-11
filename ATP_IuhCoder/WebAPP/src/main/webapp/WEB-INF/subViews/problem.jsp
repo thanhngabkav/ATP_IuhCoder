@@ -13,10 +13,10 @@
 	<div class="suffix-rating">
 		<table class="table table-striped">
 			<tbody>
-			<c:forEach items="newest-problem" var="problem">
+			<c:forEach items="${newestproblem}" var="problem">
 				<tr>
-					<td>${problem.ProblemID}</td>
-					<td>${problem.ProblemName}</td>
+					<td>${problem.getProblemID()}</td>
+					<td>${problem.getProblemName()}</td>
 				</tr>
 			</c:forEach>
 				<tr>

@@ -1,14 +1,2 @@
 <beans xmlns="http://www.springframework.org/schema/beans">
-    <bean id="CoderRating" class="Models.CoderRating">
-        <property name="Name" value="Ahihi gi do"/>
-        <property name="NumberSolvedProblem" value="69"/>
-    </bean>
-    <bean id="News" class="Models.News">
-        <property name="Title" value="Title"/>
-        <property name="Content" value="Content"/>
-    </bean>
-    <bean id="ProblemRating" class="Models.ProblemRating">
-        <property name="problemID" value="MKD01"/>
-        <property name="problemName" value="Mai Khi Do"/>
-    </bean>
 </beans>

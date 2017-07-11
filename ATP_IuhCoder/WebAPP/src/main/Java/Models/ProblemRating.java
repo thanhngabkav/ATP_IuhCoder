@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Created by lldtien on 7/10/2017.
  */
 public class ProblemRating {
-    private String ProblemID;
-    private String ProblemName;
+    public String ProblemID;
+    public String ProblemName;
 
     public ProblemRating(String problemID, String problemName) {
         ProblemID = problemID;

@@ -4,15 +4,19 @@ import Data.ICoderRatingLoader;
 import Data.INewsLoader;
 import Data.IProblemRatingLoader;
 import Models.CoderRating;
+import Models.HomeService;
 import Models.News;
 import Models.ProblemRating;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,12 +25,15 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    @Autowired
-    ICoderRatingLoader iCoderRatingLoader;
-    @Autowired
-    INewsLoader iNewsLoader;
-    @Autowired
-    IProblemRatingLoader iProblemRatingLoader;
+//    @Autowired
+//    ICoderRatingLoader iCoderRatingLoader;
+//    @Autowired
+//    INewsLoader iNewsLoader;
+//    @Autowired
+//    IProblemRatingLoader iProblemRatingLoader;
+
+
+    HomeService homeService = new HomeService();
 
     @RequestMapping("/home")
     public String HomePage(Model model){
@@ -47,23 +54,26 @@ public class HomeController {
         return new ModelAndView("../subViews/rate");
     }
 
-    @ModelAttribute("top-news")
-    public List<Models.News> getTop10News(int page){
-        return iNewsLoader.loadNext10News(page);
+    @ModelAttribute("topnews")
+    public List<Models.News> getTop10News(){
+        return homeService.getNewsList();
+        //return iNewsLoader.loadNext10News(page);
     }
-    @ModelAttribute("coming-news")
-    public News getInComingNews(){
-        return iNewsLoader.loadInComingNews();
-    }
+//    @ModelAttribute("coming-news")
+//    public News getInComingNews(){
+//        return iNewsLoader.loadInComingNews();
+//    }
 
-    @ModelAttribute("top-coder")
+    @ModelAttribute("topcoder")
     public List<CoderRating> getTopCoder(){
-        return iCoderRatingLoader.loadTop5Coder();
+        return homeService.getCoderRatingList();
+        //return iCoderRatingLoader.loadTop5Coder();
     }
 
-    @ModelAttribute("newest-problem")
+    @ModelAttribute("newestproblem")
     public List<ProblemRating> getNewestProblem(){
-        return iProblemRatingLoader.loadTop5NewestProblem();
+        return homeService.getProblemRatingList();
+        //return iProblemRatingLoader.loadTop5NewestProblem();
     }
 
 }

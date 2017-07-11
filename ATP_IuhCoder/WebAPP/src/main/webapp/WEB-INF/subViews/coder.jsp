@@ -13,10 +13,10 @@
 	<div class="suffix-rating">
 		<table class="table table-striped">
 			<tbody>
-			<c:forEach items="top-coder" var="coder">
+			<c:forEach items="${topcoder}" var="coder">
 				<tr>
-					<td>${coder.Name}</td>
-					<td>${coder.NumberSolvedProblem}</td>
+					<td>${coder.getName()}</td>
+					<td>${coder.getNumberSolvedProblem()}</td>
 				</tr>
 			</c:forEach>
 				<tr>
