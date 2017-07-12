@@ -1,6 +1,8 @@
 import Config.ApplicationConfig;
+import Data.ICoderRatingLoader;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -13,6 +15,15 @@ public class Test {
 
     @org.junit.Test
     public  void testtest(){
+        Assert.assertEquals("aaa","aaa");
+    }
+    @Autowired
+    ICoderRatingLoader iCoderRatingLoader;
+
+
+    @org.junit.Test
+    public void testloadgido(){
+        iCoderRatingLoader.loadTop5Coder();
         Assert.assertEquals("aaa","aaa");
     }
 }

@@ -9,7 +9,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * Created by lldtien on 7/3/2017.
  */
 @Configuration
-@ComponentScan("Controller")
+@ComponentScan({"Controller","Data"})
 public class ApplicationConfig {
 
     @Bean( name = "viewResolver")
