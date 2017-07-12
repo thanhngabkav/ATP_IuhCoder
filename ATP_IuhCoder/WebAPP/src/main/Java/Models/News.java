@@ -32,4 +32,22 @@ public class News {
     public void setContent(String content) {
         this.Content = content;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        News news = (News) o;
+
+        if (!Title.equals(news.Title)) return false;
+        return Content.equals(news.Content);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Title.hashCode();
+        result = 31 * result + Content.hashCode();
+        return result;
+    }
 }
