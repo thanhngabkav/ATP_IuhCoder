@@ -1,6 +1,7 @@
 package Service;
 
 import Models.ProblemRating;
+import Models.WebAppException;
 
 import java.util.List;
 
@@ -13,5 +14,5 @@ public interface IProblemRatingLoader {
      * @param range
      * @return
      */
-    List<ProblemRating> loadTopNewestProblem(int range);
+    List<ProblemRating> loadTopNewestProblem(int range) throws WebAppException;
 }

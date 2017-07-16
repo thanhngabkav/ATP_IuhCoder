@@ -18,7 +18,6 @@ public class StudentController {
     @EJB
     private I_Local_StudentDAO studentDAO;
     public StudentController() {
-
     }
     @GET
     @Produces({MediaType.APPLICATION_JSON})

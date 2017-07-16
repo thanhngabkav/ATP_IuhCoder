@@ -405,4 +405,10 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
+    <deployments>
+        <deployment name="SecureRestFulWebService.war" runtime-name="SecureRestFulWebService.war">
+            <fs-archive path="F:\TEST\SecureRestFulWebService\target\SecureRestFulWebService.war"/>
+        </deployment>
+    </deployments>
 </server>

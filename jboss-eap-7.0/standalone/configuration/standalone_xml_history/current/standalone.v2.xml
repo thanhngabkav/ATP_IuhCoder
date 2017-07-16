@@ -407,8 +407,8 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="unnamed" runtime-name="unnamed.war" enabled="false">
-            <fs-archive path="E:\Users\Le\Automatically Testting Program\automatically-testing-program\Project\testWebApp\out\artifacts\unnamed"/>
+        <deployment name="SecureRestFulWebService.war" runtime-name="SecureRestFulWebService.war" enabled="false">
+            <fs-archive path="F:\TEST\SecureRestFulWebService\target\SecureRestFulWebService.war"/>
         </deployment>
     </deployments>
 </server>
