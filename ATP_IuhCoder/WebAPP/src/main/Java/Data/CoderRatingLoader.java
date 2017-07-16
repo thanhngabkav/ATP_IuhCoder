@@ -1,6 +1,7 @@
 package Data;
 
 import Models.CoderRating;
+import Service.ICoderRatingLoader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -18,8 +19,8 @@ public class CoderRatingLoader implements ICoderRatingLoader {
     @Autowired
     private Environment environment;
 
-        public List<CoderRating> loadTop5Coder() {
-            System.out.println(environment.getProperty("pages"));
+    public List<CoderRating> loadTopCoder(int range) {
+        System.out.println(environment.getProperty("pages"));
         return null;
     }
 }

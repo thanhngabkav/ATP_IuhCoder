@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="resources/css/news_css.css"/>
     <link rel="stylesheet" href="resources/css/rating_css.css"/>
     <link rel="stylesheet" href="resources/css/home_page_css.css"/>
+
 </head>
 <body>
     <div class="main">
@@ -22,6 +23,7 @@
         <div class="home-content">
             <div class="content-left">
                     <jsp:include page="../subViews/news.jsp"></jsp:include>
+
             </div>
             <div class="content-right">
                     <div class="right-problem">
