@@ -6,6 +6,7 @@ import Models.CoderRating;
 import Models.WebAppException;
 import Service.ICoderRatingLoader;
 import com.sun.jersey.api.client.ClientResponse;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,21 +36,22 @@ public class CodeRatingLoaderTest {
     @Autowired
     private IATP_WebApiClient atp_webApiClient;
 
-   /* public void testSuccessLoadTopCoder() throws WebAppException, IOException {
+    @Test
+    public void testSuccessLoadTopCoder() throws WebAppException, IOException {
         int range = 10;
-        ClientResponse clientResponse = getTestClientResponse();
+//        ClientResponse clientResponse = getTestClientResponse();
         when(environment.getProperty("LoadTopCoderUri") + range).thenReturn("");
-        when(atp_webApiClient.getRequest("","")).thenReturn();
+//        when(atp_webApiClient.getRequest("","")).thenReturn();
 
         iCoderRatingLoader.loadTopCoder(range);
 
     }
 
-    private ClientResponse getTestClientResponse() throws IOException {
-        Response.StatusType statusType = Status.OK;
-        ClientResponse testClientResponse = new ClientResponse(statusType,null, );
-        return testClientResponse;
-    }
+//    private ClientResponse getTestClientResponse() throws IOException {
+//        Response.StatusType statusType = Status.OK;
+//        ClientResponse testClientResponse = new ClientResponse(statusType,null, );
+//        return testClientResponse;
+//    }
     private List<CoderRating> getTestListCoderRating(){
         List<CoderRating> coderRatings = new ArrayList<CoderRating>();
         CoderRating cd = new CoderRating("TIen", "69");
@@ -57,5 +59,5 @@ public class CodeRatingLoaderTest {
         coderRatings.add(cd);
         coderRatings.add(cd2);
         return coderRatings;
-    }*/
+    }
 }

@@ -3,6 +3,7 @@ package Config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 /**
@@ -10,6 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @ComponentScan({"Controller", "Models", "Service", "DataAccess"})
+@PropertySource("classpath:app.properties")
 public class ApplicationConfig {
 
     @Bean( name = "viewResolver")
