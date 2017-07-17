@@ -1,11 +1,12 @@
 package Models;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.Serializable;
 
 /**
  * Created by lldtien on 7/10/2017.
  */
-public class News {
+public class News implements Serializable{
     public String Title;
     public String Content;
 

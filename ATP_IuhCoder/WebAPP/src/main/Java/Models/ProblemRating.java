@@ -1,11 +1,12 @@
 package Models;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.Serializable;
 
 /**
  * Created by lldtien on 7/10/2017.
  */
-public class ProblemRating {
+public class ProblemRating  implements Serializable{
     public String ProblemID;
     public String ProblemName;
 

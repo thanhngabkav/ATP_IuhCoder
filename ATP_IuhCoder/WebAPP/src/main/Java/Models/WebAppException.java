@@ -1,17 +1,20 @@
 package Models;
 
+import Utilities.ErrorLevel;
+import Utilities.ErrorStatus;
+
 /**
  * Created by THANH NGA on 7/11/2017.
  */
 public class WebAppException extends Exception{
 
     private StackTraceElement[] stackTraceElements;
-    private String status;
+    private ErrorStatus status;
     private String errorClass;
     private String errorContent;
-    private String errorLevel;
+    private ErrorLevel errorLevel;
 
-    public WebAppException(StackTraceElement[] stackTraceElements, String status, String errorClass, String errorContent, String errorLevel) {
+    public WebAppException(StackTraceElement[] stackTraceElements, ErrorStatus status, String errorClass, String errorContent, ErrorLevel errorLevel) {
         this.stackTraceElements = stackTraceElements;
         this.status = status;
         this.errorClass = errorClass;
@@ -27,11 +30,11 @@ public class WebAppException extends Exception{
         this.stackTraceElements = stackTraceElements;
     }
 
-    public String getStatus() {
+    public ErrorStatus getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(ErrorStatus status) {
         this.status = status;
     }
 
@@ -51,11 +54,11 @@ public class WebAppException extends Exception{
         this.errorContent = errorContent;
     }
 
-    public String getErrorLevel() {
+    public ErrorLevel getErrorLevel() {
         return errorLevel;
     }
 
-    public void setErrorLevel(String errorLevel) {
+    public void setErrorLevel(ErrorLevel errorLevel) {
         this.errorLevel = errorLevel;
     }
 }

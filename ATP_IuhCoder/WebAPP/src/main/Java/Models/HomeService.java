@@ -26,6 +26,7 @@ public class HomeService {
     private List<News> createnewsList() {
         List<Models.News> newsList = new ArrayList<News>();
         newsList.add(new News("title", "noi dung"));
+        newsList.add(new News("title", "noi dung"));
         return newsList;
     }
 

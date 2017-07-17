@@ -7,6 +7,7 @@
 .navbar-light .navbar-nav .nav-link{
 	color: white;
 }
+
 .navbar-nav{
 	margin-top: 20px;
 }
@@ -35,11 +36,11 @@
 
 .circle_around_text{
 	border-radius: 5em;
-	
-    width: 96px;
-    border: 2px outset #fff;
 
-    text-align: center;
+	width: 96px;
+	border: 2px outset #fff;
+
+	text-align: center;
 	margin-top: 7px;
 	padding: inherit;
 }
@@ -49,12 +50,12 @@
 	letter-spacing: 0;
 	line-height: 1.9875rem;
 	white-space: nowrap;
-	
+
 	font-weight: 600;
 	font-size: 0.85em;
 	font-family: "Open Sans", sans-serif;
 	text-color: white;
-	
+
 }
 .header{
 	height: 550px;
@@ -64,4 +65,38 @@
 	display: block;
 	margin: 0 auto !important;
 	width: 1020px !important;
+}
+
+/*navgation bar on scroll */
+.navbar-scroll{
+	position: fixed;
+	float: none;
+	right: 0;
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+}
+.navbar-scroll > *{
+	position: relative;
+	padding: .5em 1rem;
+}
+.navbar-scroll .navbar-nav{
+	float: right;
+	margin-top: 0px;
+}
+.navbar-scroll .straight-line{
+	border-left: 1px solid #000;
+}
+
+.navbar-scroll .circle_around_text{
+	border: 1px solid #000;
+}
+
+.navbar-scroll > *{
+	width: 1020px !important;
+	margin: 0 auto;
+}
+
+body{
+	background-color: #F0FAFC;
 }

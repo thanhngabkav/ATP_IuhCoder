@@ -41,3 +41,9 @@
     border: none;
 }
 
+.rating td, .rating tr{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+
