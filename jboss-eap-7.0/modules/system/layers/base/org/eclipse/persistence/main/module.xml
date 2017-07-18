@@ -30,6 +30,7 @@
 
     <resources>
         <resource-root path="jipijapa-eclipselink-7.0.0.GA-redhat-2.jar"/>
+		<resource-root path="eclipselink.jar"/>
     </resources>
 
     <dependencies>

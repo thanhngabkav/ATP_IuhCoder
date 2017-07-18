@@ -13,6 +13,9 @@
           <element id="archive" name="BusinessLogic-1.0-SNAPSHOT.jar">
             <element id="module-output" name="BusinessLogic" />
           </element>
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
