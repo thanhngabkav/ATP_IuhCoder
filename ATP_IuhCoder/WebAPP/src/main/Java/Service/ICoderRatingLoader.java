@@ -1,6 +1,7 @@
 package Service;
 
 import Models.CoderRating;
+import Models.WebAppException;
 
 import java.util.List;
 
@@ -13,5 +14,5 @@ public interface ICoderRatingLoader {
      * @param range
      * @return
      */
-    List<CoderRating> loadTopCoder(int range);
+    List<CoderRating> loadTopCoder(int range) throws WebAppException;
 }

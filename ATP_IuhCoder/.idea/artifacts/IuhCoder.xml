@@ -3,6 +3,12 @@
     <output-path>$PROJECT_DIR$/out/artifacts/IuhCoder</output-path>
     <root id="archive" name="IuhCoder.war">
       <element id="artifact" artifact-name="WebAPI:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="BusinessLogic/jpa/JPA" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BusinessLogic/ejb/EJB" />
     </root>
   </artifact>
 </component>

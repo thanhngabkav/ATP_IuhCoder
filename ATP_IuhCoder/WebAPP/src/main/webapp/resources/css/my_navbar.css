@@ -7,6 +7,7 @@
 .navbar-light .navbar-nav .nav-link{
 	color: white;
 }
+
 .navbar-nav{
 	margin-top: 20px;
 }
@@ -35,11 +36,10 @@
 
 .circle_around_text{
 	border-radius: 5em;
+	width: 96px;
+	border: 2px outset #fff;
 
-    width: 96px;
-    border: 2px outset #fff;
-
-    text-align: center;
+	text-align: center;
 	margin-top: 7px;
 	padding: inherit;
 }
@@ -68,7 +68,8 @@
 
 /*navgation bar on scroll */
 .navbar-scroll{
-	position: fixed;%
+
+	position: fixed;
 	float: none;
 	right: 0;
 	width: 100%;
@@ -98,4 +99,3 @@
 
 body{
 	background-color: #F0FAFC;
-}

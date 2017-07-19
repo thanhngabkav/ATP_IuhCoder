@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>WebAPI</artifactId>
     <packaging>war</packaging>
-    <name>WebAPI Maven Webapp</name>
+    <name>WebAPI</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
