@@ -14,5 +14,5 @@ public interface ICoderRatingLoader {
      * @param range
      * @return
      */
-    List<CoderRating> loadTopCoder(int range) throws WebAppException;
+    List<CoderRating> loadTopCoder(int number) throws WebAppException;
 }

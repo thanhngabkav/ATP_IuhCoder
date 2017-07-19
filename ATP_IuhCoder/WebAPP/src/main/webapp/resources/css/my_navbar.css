@@ -36,6 +36,7 @@
 
 .circle_around_text{
 	border-radius: 5em;
+
 	width: 96px;
 	border: 2px outset #fff;
 
@@ -68,7 +69,6 @@
 
 /*navgation bar on scroll */
 .navbar-scroll{
-
 	position: fixed;
 	float: none;
 	right: 0;
@@ -99,3 +99,4 @@
 
 body{
 	background-color: #F0FAFC;
+}

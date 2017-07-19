@@ -1,2 +1,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans">
+    <bean id="coderRatingLoaderServices"
+          class="Service.CoderRatingLoader"></bean>
+
+    <bean id="newLoader"
+          class="Service.NewsLoader"></bean>
+
+    <bean id="problemRatingLoader"
+          class="Service.ProblemRatingLoader"></bean>
+
+    <bean id="ATP_WebApiClient"
+          class="DataAccess.ATP_WebApiClient"></bean>
 </beans>

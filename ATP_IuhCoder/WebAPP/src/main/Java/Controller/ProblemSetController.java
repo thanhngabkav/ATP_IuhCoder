@@ -1,10 +1,10 @@
 package Controller;
 
 import Models.*;
-import Service.IContestLoader;
-import Service.ISubmissionLoader;
+import Service.IProblemRatingLoader;
+import Service.IProblemSetLoader;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.beans.factory.parsing.Problem;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,32 +17,32 @@ import java.util.List;
 /**
  * Created by lldtien on 7/17/2017.
  */
-
 /**
- * Missing about
+ * Not Complete
+ * Missing environment property
+ * Data still in test for view
  */
 @Controller
-@RequestMapping("/Submission")
-@PropertySource("classpath:app.properties")
-public class SubmissionController {
-    ISubmissionLoader iSubmissionLoader;
-
+@RequestMapping("/Problem")
+public class ProblemSetController {
+//    @Autowired
+    IProblemSetLoader iProblemLoader;
     @Autowired
     Environment environment;
+
     @RequestMapping(method = RequestMethod.GET)
     public String HomePage(Model model){
-        return "submission_page";
+        return "problemset_page";
     }
 
-//    /* Attribute Area */
-//    @ModelAttribute
-//    public List<Submission> getTopNewestProblem() throws WebAppException {
-//        int number = Integer.parseInt(environment.getProperty("")); // missing
-//        return iSubmissionLoader.loadTopSubmission(number);
+//     /* Attribute Area */
+//    @ModelAttribute("problemset")
+//    public List<ProblemSet> getTopNewestProblem() throws WebAppException {
+//        int number = Integer.parseInt(environment.getProperty(""));
+//        return iProblemLoader.loadTopProblemSet(number);
 //    }
 
-
-    /*Data to Test View*/
+    /*Data to test View*/
     HomeService homeService = new HomeService();
     @ModelAttribute("topcoder")
     public List<CoderRating> getTopCoder() {

@@ -1,6 +1,5 @@
 .content-left{
     float: left;
-    width: 70%;
 }
 .content-right{
     float: right;
@@ -10,9 +9,10 @@
     margin: 0 auto !important;
     padding-top: 70px;
 }
-.right-rating{
-    margin-top: 40px;
+.right-problem, .right-before-contest{
+    margin-bottom: 40px;
 }
+
 body{
     background-color: #F0FAFC;
 }

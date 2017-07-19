@@ -1,5 +1,6 @@
 package Config;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -16,9 +17,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/").setCachePeriod(31556926);
-//        registry.addResourceHandler("/resource/css/**").addResourceLocations("/resource/css/").setCachePeriod(31556926);
-//        registry.addResourceHandler("/resource/img/**").addResourceLocations("/resource/img/").setCachePeriod(31556926);
-//        registry.addResourceHandler("/resource/js/**").addResourceLocations("/resource/js/").setCachePeriod(31556926);
+//        registry.addResourceHandler("/css/**").addResourceLocations("/css/")
+//        registry.addResourceHandler("/img/**").addResourceLocations("/img/").setCachePeriod(31556926);
+//        registry.addResourceHandler("/js/**").addResourceLocations("/js/").setCachePeriod(31556926);
     }
 
     @Override

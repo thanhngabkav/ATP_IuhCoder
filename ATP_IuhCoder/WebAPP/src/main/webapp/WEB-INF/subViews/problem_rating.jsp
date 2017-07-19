@@ -19,27 +19,6 @@
 					<td>${problem.getProblemName()}</td>
 				</tr>
 			</c:forEach>
-				<tr>
-					<td>MD01</td>
-					<td>Find The Dog</td>
-				</tr>
-				<tr>
-					<td>MD02</td>
-					<td>Find The Monkey</td>
-				</tr>
-				<tr>
-					<td>MD03</td>
-					<td>Find The Spider</td>
-				</tr>
-				<tr>
-					<td>MD04</td>
-					<td>Find The Hand</td>
-				</tr>
-				<tr>
-					<td>MD05</td>
-					<td>Find The F***</td>
-				</tr>
-
 			</tbody>
 		</table>
 	</div>

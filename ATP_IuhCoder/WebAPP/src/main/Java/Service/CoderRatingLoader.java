@@ -6,9 +6,9 @@ import Models.WebAppException;
 import Utilities.ErrorStatus;
 import Utilities.ErrorLevel;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +25,13 @@ import java.util.List;
  * Need to add restUri into properties file
  */
 @Service
+@PropertySource("classpath:app.properties")
 public class CoderRatingLoader implements ICoderRatingLoader {
+
+    public CoderRatingLoader() {
+
+    }
+
     @Autowired
     private IATP_WebApiClient atp_webApiClient;
 

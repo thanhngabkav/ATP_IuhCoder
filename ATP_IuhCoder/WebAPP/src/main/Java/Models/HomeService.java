@@ -24,7 +24,7 @@ public class HomeService {
     }
 
     private List<News> createnewsList() {
-        List<Models.News> newsList = new ArrayList<News>();
+        List<News> newsList = new ArrayList<News>();
         newsList.add(new News("title", "noi dung"));
         newsList.add(new News("title", "noi dung"));
         return newsList;
@@ -32,7 +32,11 @@ public class HomeService {
 
     private List<ProblemRating> createproblemRatingList() {
         List<ProblemRating> problemRatings = new ArrayList<ProblemRating>();
-        problemRatings.add(new ProblemRating("DKM01","Dieu Khong Muon"));
+        problemRatings.add(new ProblemRating("DKM01","Chi Co The"));
+        problemRatings.add(new ProblemRating("DKM02","Chua Duoc Co"));
+        problemRatings.add(new ProblemRating("DKM03","Nhieu Nhat La"));
+        problemRatings.add(new ProblemRating("DKM04","5 Thanwgf Cao Nhaatst"));
+        problemRatings.add(new ProblemRating("DKM05","Ma Thoi"));
         return problemRatings;
     }
 
