@@ -47,15 +47,15 @@ public class CodeRatingLoaderTest {
     @Mock
     private IATP_WebApiClient atp_webApiClient;
 
-    @InjectMocks
-    ICoderRatingLoader iCoderRatingLoader = new CoderRatingLoader();
+    @Autowired
+    ICoderRatingLoader iCoderRatingLoader;
 
     @Test
     public void testSuccessLoadTopCoder() throws WebAppException, IOException {
         int range = 10;
         ClientResponse clientResponse = mock(ClientResponse.class);
 
-        when(environment.getProperty("LoadTopCoderUri") + range).thenReturn("");
+        //when(environment.getProperty("LoadTopCoderUri") + range).thenReturn("");
         when(atp_webApiClient.getRequest(range + "", "")).thenReturn(clientResponse);
         when(clientResponse.getStatus()).thenReturn(200);
         when(clientResponse.getEntity(String.class)).thenReturn(getTestClientResponse());

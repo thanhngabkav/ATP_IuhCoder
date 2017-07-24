@@ -10,7 +10,18 @@ import java.net.HttpURLConnection;
  */
 @Local
 public interface I_Local_MarkingServerConnection {
+    /**
+     *
+     * @param serverUrl
+     * @return
+     * @throws ATP_ExceptionHandler
+     */
     HttpURLConnection GetConnection(String serverUrl) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param connection
+     * @throws ATP_ExceptionHandler
+     */
     void CloseConnection(HttpURLConnection connection) throws ATP_ExceptionHandler;
 }

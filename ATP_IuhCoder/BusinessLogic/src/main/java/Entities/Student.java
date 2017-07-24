@@ -18,6 +18,7 @@ public class Student implements Serializable {
     private String password;
     private String studentName;
     private String userName;
+    private long rating;
     private Collection<StudentContestDetail> studentContestDetailsByStudentId;
     private Collection<Submission> submissionsByStudentId;
 
@@ -55,6 +56,16 @@ public class Student implements Serializable {
     @Column(name = "UserName")
     public String getUserName() {
         return userName;
+    }
+
+    @Basic
+    @Column(name = "Rating")
+    public long getRating() {
+        return rating;
+    }
+
+    public void setRating(long rating) {
+        this.rating = rating;
     }
 
     public void setUserName(String userName) {

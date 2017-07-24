@@ -11,13 +11,41 @@ import java.util.List;
  */
 @Local
 public interface I_Local_OutputDAO {
+    /**
+     *
+     * @param output
+     * @throws ATP_ExceptionHandler
+     */
     void CreateOutput(Output output) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param output
+     * @throws ATP_ExceptionHandler
+     */
     void EditOutput(Output output) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param output
+     * @throws ATP_ExceptionHandler
+     */
     void DeleteOutput(Output output) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param outputID
+     * @param problemID
+     * @return
+     * @throws ATP_ExceptionHandler
+     */
     Output GetOutput(int outputID, String problemID) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param problemID
+     * @return
+     * @throws ATP_ExceptionHandler
+     */
     List<Output> GetOutputByProblemID(String problemID) throws ATP_ExceptionHandler;
 }

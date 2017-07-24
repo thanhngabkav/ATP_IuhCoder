@@ -11,7 +11,7 @@ import java.util.List;
 public interface ICoderRatingLoader {
     /**
      * Get top coder in range order by Rating
-     * @param range
+     * @param number
      * @return
      */
     List<CoderRating> loadTopCoder(int number) throws WebAppException;

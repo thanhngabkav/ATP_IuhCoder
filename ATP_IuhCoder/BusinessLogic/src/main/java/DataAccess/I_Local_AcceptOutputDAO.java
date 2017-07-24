@@ -11,7 +11,18 @@ import java.util.List;
  */
 @Local
 public interface I_Local_AcceptOutputDAO {
+    /**
+     *
+     * @param acceptOutput
+     * @throws ATP_ExceptionHandler
+     */
     void CreateAcceptOutput(AcceptOutput acceptOutput) throws ATP_ExceptionHandler;
 
+    /**
+     *
+     * @param submissionID
+     * @return
+     * @throws ATP_ExceptionHandler
+     */
     List<AcceptOutput> GetAllAcceptOutputBySubmission(int submissionID) throws ATP_ExceptionHandler;
 }

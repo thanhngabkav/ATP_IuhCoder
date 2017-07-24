@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * Created by lldtien on 7/3/2017.
  */
 @Configuration
-@ComponentScan({"Controller", "Models", "Service", "DataAccess"})
+@ComponentScan(basePackages = {"Controller", "Models", "Service", "DataAccess"})
 @PropertySource("classpath:app.properties")
 public class ApplicationConfig {
 

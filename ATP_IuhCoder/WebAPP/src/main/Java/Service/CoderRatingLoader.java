@@ -25,7 +25,6 @@ import java.util.List;
  * Need to add restUri into properties file
  */
 @Service
-@PropertySource("classpath:app.properties")
 public class CoderRatingLoader implements ICoderRatingLoader {
 
     public CoderRatingLoader() {

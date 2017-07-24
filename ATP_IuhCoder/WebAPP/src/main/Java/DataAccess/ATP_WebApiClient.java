@@ -14,7 +14,7 @@ import java.awt.*;
  */
 @Component
 /**
- * Connect to webapi and get json response
+ * Connect to web api and get response with json entity
  */
 public class ATP_WebApiClient implements IATP_WebApiClient {
 
