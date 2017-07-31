@@ -2,6 +2,7 @@ package Entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.sql.Date;
 import java.util.Collection;
 
 /**
@@ -15,7 +16,7 @@ import java.util.Collection;
 public class Contest implements Serializable {
     private String contestId;
     private String contestName;
-    private String createdTime;
+    private Date createdTime;
     private String status;
     private String teacherId;
     private int totalCorrectSubmission;
@@ -47,11 +48,11 @@ public class Contest implements Serializable {
 
     @Basic
     @Column(name = "CreatedTime")
-    public String getCreatedTime() {
+    public Date getCreatedTime() {
         return createdTime;
     }
 
-    public void setCreatedTime(String createdTime) {
+    public void setCreatedTime(Date createdTime) {
         this.createdTime = createdTime;
     }
 

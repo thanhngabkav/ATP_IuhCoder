@@ -1,0 +1,1 @@
+INSERT INTO atp_iuhcoder.student (StudentId, Password, Rating, StudentName, UserName) VALUES ('S00001', '271389a8d27937a74f15930621b6e29f59e3e72844408ea802fe59752411f36b', 0, 'Nguyễn Thanh Nga', 'VNBeginner');

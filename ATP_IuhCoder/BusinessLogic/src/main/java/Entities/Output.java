@@ -40,7 +40,7 @@ public class Output implements Serializable {
     }
 
     @Basic
-    @Column(name = "OutputData")
+    @Column(name = "OutputData",columnDefinition="TEXT")
     public String getOutputData() {
         return outputData;
     }

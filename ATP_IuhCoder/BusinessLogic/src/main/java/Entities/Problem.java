@@ -21,6 +21,7 @@ public class Problem implements Serializable {
     private int numSubmission;
     private String problemName;
     private double timeLimit;
+    private String  problemFileEncode;
     private Collection<Input> inputsByProblemId;
     private Collection<Output> outputsByProblemId;
     private Contest contestByContestId;
@@ -90,6 +91,16 @@ public class Problem implements Serializable {
     @Column(name = "TimeLimit")
     public double getTimeLimit() {
         return timeLimit;
+    }
+
+    @Basic
+    @Column(name = "ProblemFileEncode",columnDefinition="TEXT")
+    public String getProblemLink() {
+        return problemFileEncode;
+    }
+
+    public void setProblemLink(String problemLink) {
+        this.problemFileEncode = problemLink;
     }
 
     public void setTimeLimit(double timeLimit) {

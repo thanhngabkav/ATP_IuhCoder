@@ -13,7 +13,7 @@ public interface IATP_WebApiClient {
      * @return ClientResponse
      */
 
-    ClientResponse getRequest(String url, String basicAuthentication);
+    ClientResponse getRequest(String url, String basicAuthentication, String acceptContentType);
     /**
      * Sent POST request to ATP_WebApi server
      * @param url : web api url

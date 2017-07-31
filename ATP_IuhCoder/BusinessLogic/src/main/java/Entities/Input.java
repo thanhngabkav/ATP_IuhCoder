@@ -41,7 +41,7 @@ public class Input implements Serializable {
     }
 
     @Basic
-    @Column(name = "InputData")
+    @Column(name = "InputData",columnDefinition="TEXT")
     public String getInputData() {
         return inputData;
     }

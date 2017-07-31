@@ -1,0 +1,1 @@
+INSERT INTO atp_iuhcoder.teacher (TeacherId, Password, TeacherName, UserName) VALUES ('T00001', '271389a8d27937a74f15930621b6e29f59e3e72844408ea802fe59752411f36b', 'Nguyễn Thanh Nga', 'admin01');

@@ -23,10 +23,10 @@ public class News {
     @Column(name = "CreatedTime")
     private Date createdTime;
 
-    @Column(name = "Title")
+    @Column(name = "Title",columnDefinition="TEXT")
     private String title;
 
-    @Column(name = "Content")
+    @Column(name = "Content",columnDefinition="TEXT")
     private String content;
 
     public long getId() {

@@ -2,6 +2,7 @@ package Entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.sql.Timestamp;
 
 /**
  * Created by THANH NGA on 6/19/2017.
@@ -25,7 +26,7 @@ public class Submission implements Serializable {
     private int numCorrectOutput;
     private String problemId;
     private int problemSubmitTime;
-    private String sendTime;
+    private Timestamp sendTime;
     private String sourceCode;
     private String status;
     private String studentId;
@@ -97,11 +98,11 @@ public class Submission implements Serializable {
 
     @Basic
     @Column(name = "SendTime")
-    public String getSendTime() {
+    public Timestamp getSendTime() {
         return sendTime;
     }
 
-    public void setSendTime(String sendTime) {
+    public void setSendTime(Timestamp sendTime) {
         this.sendTime = sendTime;
     }
 

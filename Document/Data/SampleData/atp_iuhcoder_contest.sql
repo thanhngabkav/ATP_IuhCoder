@@ -1,0 +1,1 @@
+INSERT INTO atp_iuhcoder.contest (ContestId, ContestName, CreatedTime, Status, TeacherId, TotalCorrectSubmission, TotalSubmission) VALUES ('C00001', 'Sample Contest', '2017-07-26', 'PUBLIC', 'T00001', 0, 0);

@@ -24,6 +24,5 @@ public class ATP_ExceptionHandler extends Exception {
         System.out.println("Class: "+errorClass);
         System.out.println("Line: "+line);
         System.out.println("SystemMessage: "+systemErrorMessage);
-
     }
 }

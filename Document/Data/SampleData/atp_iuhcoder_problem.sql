@@ -1,0 +1,1 @@
+INSERT INTO atp_iuhcoder.problem (ProblemID, ContestID, MemoryLimit, NumCorrectSubmission, NumSubmission, ProblemLink, ProblemName, TimeLimit) VALUES ('P00001', 'C00001', 256, 0, 0, 'P00001', 'Sample Problem', 2);

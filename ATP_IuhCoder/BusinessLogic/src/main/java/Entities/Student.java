@@ -1,6 +1,7 @@
 package Entities;
 
 import javax.persistence.*;
+import javax.ws.rs.Consumes;
 import java.io.Serializable;
 import java.util.Collection;
 
@@ -18,6 +19,7 @@ public class Student implements Serializable {
     private String password;
     private String studentName;
     private String userName;
+    private String avatar;
     private long rating;
     private Collection<StudentContestDetail> studentContestDetailsByStudentId;
     private Collection<Submission> submissionsByStudentId;
@@ -56,6 +58,16 @@ public class Student implements Serializable {
     @Column(name = "UserName")
     public String getUserName() {
         return userName;
+    }
+
+    @Basic
+    @Column(name = "Avatar", columnDefinition="TEXT")
+    public String getStudentAvatar() {
+        return avatar;
+    }
+
+    public void setStudentAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
     @Basic

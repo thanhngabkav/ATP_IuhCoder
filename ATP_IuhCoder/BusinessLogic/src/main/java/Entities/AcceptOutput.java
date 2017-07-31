@@ -39,7 +39,7 @@ public class AcceptOutput implements Serializable {
     }
 
     @Basic
-    @Column(name = "StudentOutput")
+    @Column(name = "StudentOutput",columnDefinition="TEXT")
     public String getStudentOutput() {
         return studentOutput;
     }
@@ -49,7 +49,7 @@ public class AcceptOutput implements Serializable {
     }
 
     @Basic
-    @Column(name = "TeacherOutput")
+    @Column(name = "TeacherOutput",columnDefinition="TEXT")
     public String getTeacherOutput() {
         return teacherOutput;
     }
