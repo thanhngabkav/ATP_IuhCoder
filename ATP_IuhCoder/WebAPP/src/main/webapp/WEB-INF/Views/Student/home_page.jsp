@@ -18,17 +18,17 @@
 </head>
 <body>
     <div class="main">
-        <jsp:include page="../subViews/header.jsp"></jsp:include>
+        <jsp:include page="../../subViews/header.jsp"></jsp:include>
         <div class="home-content">
             <div class="content-left col-md-9">
-                    <jsp:include page="../subViews/news.jsp"></jsp:include>
+                    <jsp:include page="../../subViews/news.jsp"></jsp:include>
             </div>
             <div class="content-right col-md-3">
                     <div class="right-problem">
-                        <jsp:include page="../subViews/problem_rating.jsp"></jsp:include>
+                        <jsp:include page="../../subViews/problem_rating.jsp"></jsp:include>
                     </div>
                     <div class="right-rating">
-                        <jsp:include page="../subViews/coder.jsp"></jsp:include>
+                        <jsp:include page="../../subViews/coder_rating.jsp"></jsp:include>
                     </div>
             </div>
         </div>

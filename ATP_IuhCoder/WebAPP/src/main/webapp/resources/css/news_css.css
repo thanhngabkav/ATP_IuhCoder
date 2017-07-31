@@ -13,6 +13,7 @@
 	border-radius: 10px;
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
 	margin-bottom: 40px;
+	background-color: white;
 }
 .news_content:hover{
 	box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
@@ -25,4 +26,8 @@
 	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
 	font-size:25px;
 	font-weight: bold;
+}
+
+.icon_news-td{
+	width: 30px;
 }

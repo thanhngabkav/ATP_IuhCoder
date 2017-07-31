@@ -1,4 +1,4 @@
-package Controller;
+package Controller.Student;
 
 
 import Models.WebAppException;

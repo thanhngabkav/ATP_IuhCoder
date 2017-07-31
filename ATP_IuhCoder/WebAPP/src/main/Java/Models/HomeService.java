@@ -2,6 +2,7 @@ package Models;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by lldtien on 7/10/2017.
@@ -10,11 +11,13 @@ public class HomeService {
     private List<CoderRating> coderRatingList;
     private List<News> newsList;
     private List<ProblemRating> problemRatingList;
+    private List<Submission> submissions;
 
     public HomeService() {
         coderRatingList = createcoderRating();
         newsList = createnewsList();
         problemRatingList = createproblemRatingList();
+        submissions = createSubmissionList();
     }
 
     private List<CoderRating> createcoderRating() {
@@ -39,6 +42,22 @@ public class HomeService {
         problemRatings.add(new ProblemRating("DKM05","Ma Thoi"));
         return problemRatings;
     }
+    private List<Submission> createSubmissionList(){
+        List<Submission> l = new ArrayList<Submission>();
+        String name = "Problem Name ";
+        Random rd = new Random();
+        for(int i = 0 ; i < 100; ++i){
+            int memory = rd.nextInt(3000 - 1000 + 1) + 1000;
+            int day = rd.nextInt(30 +  1);
+            int month = rd.nextInt(12) + 1;
+            int year = rd.nextInt(2020 - 2000 + 1) + 2000;
+            String sTime = day + "/" + month + "/" + year;
+            l.add(new Submission(i + "",sTime,name + i, " ", (day + i) + "", memory+"" ));
+        }
+        return l;
+    }
+
+
 
     public List<CoderRating> getCoderRatingList() {
         return coderRatingList;
@@ -50,6 +69,23 @@ public class HomeService {
 
     public List<ProblemRating> getProblemRatingList() {
         return problemRatingList;
+    }
+
+    public List<Submission> getSubmissions() {
+        return submissions;
+    }
+
+    public List<Submission> getSubmissions(Integer page, Integer numPerPage) {
+        if(page == null) page = 1;
+        List<Submission> l = new ArrayList<Submission>();
+        for(Integer i = (page - 1)*numPerPage; i < (page - 1)*numPerPage + numPerPage ; ++i){
+            l.add(submissions.get(i));
+        }
+        return l;
+    }
+
+    public int getSubmissionSize(){
+        return submissions.size();
     }
 }
 

@@ -1,10 +1,8 @@
-package Controller;
+package Controller.Student;
 
 import Models.*;
-import Service.IProblemRatingLoader;
 import Service.IProblemSetLoader;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.parsing.Problem;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

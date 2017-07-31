@@ -18,10 +18,10 @@
 </head>
 <body>
 <div class="main">
-    <jsp:include page="../subViews/header_fixed_top.jsp"/>
+    <jsp:include page="../../subViews/header_fixed_top.jsp"/>
     <div class="home-content" style="padding-top: 110px">
         <div class="content-left  col-md-12">
-            <jsp:include page="../subViews/submission.jsp"/>
+            <jsp:include page="../../subViews/submission.jsp"/>
         </div>
 
     </div>

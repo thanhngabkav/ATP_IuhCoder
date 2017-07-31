@@ -6,7 +6,7 @@
 		<table class="table prefix-rating-table">
 		<tr>
 			<td class="prefix-img-problem"></td>
-			<td class="prefix-text">zxzxxzxz</td>
+				<td class="prefix-text">Top Problem</td>
 			</tr>
 		</table>
 	</div>
@@ -16,7 +16,7 @@
 			<c:forEach items="${newestproblem}" var="problem">
 				<tr>
 					<td>${problem.getProblemID()}</td>
-					<td>${problem.getProblemName()}</td>
+					<td class="table-text-right">${problem.getProblemName()}</td>
 				</tr>
 			</c:forEach>
 			</tbody>
