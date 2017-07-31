@@ -78,18 +78,5 @@ public class Submission implements Serializable {
         return Memory;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
 
-        Submission that = (Submission) o;
-
-        return SubmissionID != null ? SubmissionID.equals(that.SubmissionID) : that.SubmissionID == null;
-    }
-
-    @Override
-    public int hashCode() {
-        return SubmissionID != null ? SubmissionID.hashCode() : 0;
-    }
 }

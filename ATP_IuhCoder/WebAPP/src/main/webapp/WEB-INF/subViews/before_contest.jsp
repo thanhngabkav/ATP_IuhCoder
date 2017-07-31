@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="newest-contest">
     <div class="prefix-newest-contest">
-        <h2>Before Contest</h2>
+        <h3> Before Contest</h3>
     </div>
     <div class="suffix-rating">
         <div class="text">

@@ -1,8 +1,8 @@
-package Controller;
+package Controller.Student;
 
 import Models.*;
-import Service.IContestLoader;
 import Service.ISubmissionLoader;
+import Utilities.PaginationTagLib;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
@@ -27,10 +27,18 @@ import java.util.List;
 public class SubmissionController {
     ISubmissionLoader iSubmissionLoader;
 
+    /*Data to Test View*/
+    HomeService homeService = new HomeService();
+
     @Autowired
     Environment environment;
     @RequestMapping(method = RequestMethod.GET)
-    public String HomePage(Model model){
+    public String HomePage(Model model, Integer pages){
+        List<Submission> l = homeService.getSubmissions(pages, PaginationTagLib.NUM_PER_PAGE);
+        if(pages == null) pages = 1;
+        model.addAttribute("count", homeService.getSubmissionSize());
+        model.addAttribute("pages", pages);
+        model.addAttribute("submissions",l);
         return "submission_page";
     }
 
@@ -42,8 +50,7 @@ public class SubmissionController {
 //    }
 
 
-    /*Data to Test View*/
-    HomeService homeService = new HomeService();
+
     @ModelAttribute("topcoder")
     public List<CoderRating> getTopCoder() {
         return homeService.getCoderRatingList();
@@ -55,4 +62,5 @@ public class SubmissionController {
         return homeService.getProblemRatingList();
         //return iProblemRatingLoader.loadTop5NewestProblem();
     }
+
 }

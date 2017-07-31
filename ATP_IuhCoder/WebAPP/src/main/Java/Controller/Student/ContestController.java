@@ -1,9 +1,7 @@
-package Controller;
+package Controller.Student;
 
 import Models.*;
 import Service.IContestLoader;
-import Service.IProblemRatingLoader;
-import Service.IProblemSetLoader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;

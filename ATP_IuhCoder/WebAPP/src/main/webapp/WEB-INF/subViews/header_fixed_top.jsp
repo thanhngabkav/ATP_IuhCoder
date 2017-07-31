@@ -14,12 +14,12 @@
     -->
     <div>
         <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link text_navbar" href="/WebApp/Home">Home</a> </li>
-            <li class="nav-item"> <a class="nav-link text_navbar" href="/WebApp/Problem">ProblemSet</a> </li>
-            <li class="nav-item"> <a class="nav-link text_navbar" href="/WebApp/Contest">Contest</a> </li>
-            <li class="nav-item"> <a class="nav-link text_navbar" href="/WebApp/Submission">Submission</a> </li>
+            <li class="nav-item"> <a class="nav-link text_navbar" href="Home">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link text_navbar" href="Problem">ProblemSet</a> </li>
+            <li class="nav-item"> <a class="nav-link text_navbar" href="Contest">Contest</a> </li>
+            <li class="nav-item"> <a class="nav-link text_navbar" href="Submission">Submission</a> </li>
             <li class="nav-item straight-line nav-link "> </li>
-            <li class="nav-item"> <a class="nav-link circle_around_text text_navbar" href="#">Login</a> </li>
+            <li class="nav-item"> <a class="nav-link circle_around_text text_navbar" href="Login">Login</a> </li>
         </ul>
     </div>
 </nav>

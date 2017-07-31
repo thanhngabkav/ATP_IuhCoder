@@ -8,13 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
-<table class="table table-striped">
+
+<table class="table table-striped table-shadow">
     <thead class="thead-inverse">
     <tr>
         <th>ID</th>
         <th>Problem Name</th>
         <th>Problem Type</th>
-        <th>Num</th>
+        <th class="table-text-right">Num</th>
     </tr>
     </thead>
     <tbody>
@@ -23,26 +24,26 @@
             <td>${problem.getProblemID()}</td>
             <td>${problem.getProblemName()}</td>
             <td>${problem.getProblemType()}</td>
-            <td>${problem.getNumberProblemSolved()}</td>
+            <td class="table-text-right">${problem.getNumberProblemSolved()}</td>
         </tr>
     </c:forEach>
     <tr>
         <th scope="row">1</th>
         <td>Mark</td>
         <td>Otto</td>
-        <td>@mdo</td>
+        <td class="table-text-right">@mdo</td>
     </tr>
     <tr>
         <th scope="row">2</th>
         <td>Jacob</td>
         <td>Thornton</td>
-        <td>@fat</td>
+        <td class="table-text-right">@fat</td>
     </tr>
     <tr>
         <th scope="row">3</th>
         <td>Larry</td>
         <td>the Bird</td>
-        <td>@twitter</td>
+        <td class="table-text-right">@twitter</td>
     </tr>
     </tbody>
 </table>
