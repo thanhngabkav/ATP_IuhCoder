@@ -39,7 +39,7 @@ public class SubmissionController {
         model.addAttribute("count", homeService.getSubmissionSize());
         model.addAttribute("pages", pages);
         model.addAttribute("submissions",l);
-        return "submission_page";
+        return "student_submission_page";
     }
 
 //    /* Attribute Area */

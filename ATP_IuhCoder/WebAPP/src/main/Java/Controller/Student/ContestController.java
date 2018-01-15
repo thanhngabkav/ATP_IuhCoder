@@ -31,7 +31,7 @@ public class ContestController {
     Environment environment;
     @RequestMapping(method = RequestMethod.GET)
     public String HomePage(Model model){
-        return "contest_page";
+        return "student_contest_page";
     }
 
     /* Attribute Area *//*

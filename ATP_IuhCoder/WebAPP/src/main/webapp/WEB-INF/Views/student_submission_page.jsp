@@ -18,22 +18,12 @@
 </head>
 <body>
 <div class="main">
-    <jsp:include page="../../subViews/header_fixed_top.jsp"/>
+    <jsp:include page="../subViews/header_fixed_top.jsp"/>
     <div class="home-content" style="padding-top: 110px">
-        <div class="content-left  col-md-9">
-            <jsp:include page="../../subViews/problem_set.jsp"/>
+        <div class="content-left  col-md-12">
+            <jsp:include page="../subViews/submission.jsp"/>
         </div>
-        <div class="content-right col-md-3">
-            <div class="right-before-contest">
-                <jsp:include page="../../subViews/before_contest.jsp"/>
-            </div>
-            <div class="right-problem">
-                <jsp:include page="../../subViews/problem_rating.jsp"/>
-            </div>
-            <div class="right-rating">
-                <jsp:include page="../../subViews/coder_rating.jsp"/>
-            </div>
-        </div>
+
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

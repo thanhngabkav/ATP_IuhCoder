@@ -30,7 +30,7 @@ public class ProblemSetController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String HomePage(Model model){
-        return "problemset_page";
+        return "student_problemset_page";
     }
 
 //     /* Attribute Area */

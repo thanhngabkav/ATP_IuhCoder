@@ -31,7 +31,7 @@ public class HomeController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String HomePage(Model model) {
-        return "home_page";
+        return "student_home_page";
     }
 
 
